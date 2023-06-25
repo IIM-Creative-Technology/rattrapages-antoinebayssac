@@ -1,7 +1,7 @@
 **RATTRAPAGE ANTOINE BAYSSAC**
 
 CECI EST LE BON DOSSIER J'AI EU UN PROBLEME DE LIEN GITHUBCLASSROOM, J'AI REPRIS DONC MES COMMITS LA OU J'EN ETAIS. 
-VOUS POUVEZ VERIFIER MES COMMITS REFULIER SUR CE LIEN QUI : https://github.com/IIM-Creative-Technology/Rattrapage-Bayssac-Antoine
+VOUS POUVEZ VERIFIER MES COMMITS REGULIER SUR CE LIEN : https://github.com/IIM-Creative-Technology/Rattrapage-Bayssac-Antoine
 
 ====================================
 
