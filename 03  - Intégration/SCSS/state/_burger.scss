@@ -1,0 +1,30 @@
+#locations-dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    animation-name: slideDown;
+  }
+  
+  .wrapper_navlink.active {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    gap: 32px;
+    animation: slideDownNav 0.5s forwards;
+  }
+  
+  @keyframes slideDownNav {
+    0% {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
