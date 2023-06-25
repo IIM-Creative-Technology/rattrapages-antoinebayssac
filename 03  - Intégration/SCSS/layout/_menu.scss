@@ -56,4 +56,66 @@
         }
       }
     }
-}
+  
+    .wrapper_food_menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 63px;
+      flex-wrap: wrap;
+      .wrapper_card_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        .card_menu {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          width: 502px;
+          .card_menu_title {
+            display: flex;
+            justify-content: space-between;
+            p {
+              font-size: 24px;
+              color: $green;
+              font-weight: 500;
+            }
+          }
+          .card_menu_ingredient {
+            p {
+              font-size: 18px;
+              font-weight: 400;
+              color: $grey;
+            }
+          }
+        }
+      }
+      .wrapper_menu_aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 95px;
+        .title_menu_aside {
+          font-size: 64px;
+          font-style: italic;
+          transform: rotate(-9deg);
+          p:nth-child(1) {
+            color: $green;
+          }
+          p:nth-child(2) {
+            color: $blue
+          }
+        }
+        .text_menu_aside {
+          p {
+            font-size: 18px;
+            font-weight: 400;
+            color: $grey;
+          }
+        }
+      }
+    }
+  }

@@ -224,6 +224,63 @@ nav .wrapper_navlink button {
   font-weight: 400;
   color: #606060;
 }
+.container_menu .wrapper_food_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 63px;
+  flex-wrap: wrap;
+}
+.container_menu .wrapper_food_menu .wrapper_card_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.container_menu .wrapper_food_menu .wrapper_card_menu .card_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 502px;
+}
+.container_menu .wrapper_food_menu .wrapper_card_menu .card_menu .card_menu_title {
+  display: flex;
+  justify-content: space-between;
+}
+.container_menu .wrapper_food_menu .wrapper_card_menu .card_menu .card_menu_title p {
+  font-size: 24px;
+  color: rgb(178, 210, 52);
+  font-weight: 500;
+}
+.container_menu .wrapper_food_menu .wrapper_card_menu .card_menu .card_menu_ingredient p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #606060;
+}
+.container_menu .wrapper_food_menu .wrapper_menu_aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+}
+.container_menu .wrapper_food_menu .wrapper_menu_aside .title_menu_aside {
+  font-size: 64px;
+  font-style: italic;
+  transform: rotate(-9deg);
+}
+.container_menu .wrapper_food_menu .wrapper_menu_aside .title_menu_aside p:nth-child(1) {
+  color: rgb(178, 210, 52);
+}
+.container_menu .wrapper_food_menu .wrapper_menu_aside .title_menu_aside p:nth-child(2) {
+  color: #60A0D8;
+}
+.container_menu .wrapper_food_menu .wrapper_menu_aside .text_menu_aside p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #606060;
+}
 
 .container_preparation {
   padding: 144px 0;
@@ -433,6 +490,25 @@ nav .wrapper_navlink button {
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(97, 97, 97, 0.16);
   text-decoration: none;
+}
+
+.seller {
+  border: 1px solid rgb(178, 210, 52);
+  padding: 12px;
+}
+
+.wrapper_seller .wrapper_seller_text {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper_seller .wrapper_seller_text p {
+  text-align: right;
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+  background: rgb(178, 210, 52);
+  padding: 3px 12px;
 }
 
 /*# sourceMappingURL=main.css.map */

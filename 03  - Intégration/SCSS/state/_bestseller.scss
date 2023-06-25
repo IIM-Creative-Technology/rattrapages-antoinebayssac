@@ -1,0 +1,19 @@
+.seller {
+    border: 1px solid $green;
+    padding: 12px;
+  }
+  .wrapper_seller {
+    .wrapper_seller_text {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      p {
+        text-align: right;
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+        background: $green;
+        padding: 3px 12px;
+      }
+    }
+  }
