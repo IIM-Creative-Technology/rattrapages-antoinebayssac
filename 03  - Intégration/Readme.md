@@ -15,7 +15,7 @@
 
 ====================================
 
-Video youtube présentation de la maquette : 
+Video youtube présentation de la maquette : https://youtu.be/6kwFKN5zCwo
 
 ====================================
 
