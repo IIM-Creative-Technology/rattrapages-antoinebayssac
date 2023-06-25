@@ -225,6 +225,70 @@ nav .wrapper_navlink button {
   color: #606060;
 }
 
+.container_preparation {
+  padding: 144px 0;
+  background: url("../Assets/louis-hansel-MlPD-AzZYMg-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_preparation .wrapper_preparation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0 40px;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_green {
+  background: rgba(178, 210, 52, 0.85);
+  padding: 32px 100px;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_green h3 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_green .card_preparation_food {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_green .card_preparation_food ul {
+  margin-top: 40px;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_green .card_preparation_food ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_blue {
+  background: rgba(96, 160, 216, 0.85);
+  padding: 32px 100px;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_blue h3 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_blue .card_preparation_food {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_blue .card_preparation_food ul {
+  margin-top: 40px;
+}
+.container_preparation .wrapper_preparation .wrapper_card_preparation_blue .card_preparation_food ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
 .wrapper_navlink a {
   text-decoration: none;
   color: #FFFFFF;

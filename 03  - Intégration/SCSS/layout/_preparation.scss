@@ -1,0 +1,63 @@
+.container_preparation {
+    padding: 144px 0;
+    background: url("../Assets/louis-hansel-MlPD-AzZYMg-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper_preparation {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin: 0 40px;
+      .wrapper_card_preparation_green {
+        background: rgba(178, 210, 52, 0.85);
+        padding: 32px 100px;
+        h3 {
+          font-size: 52px;
+          font-weight: 600;
+          color: #FFFFFF;
+        }
+        .card_preparation_food {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          ul {
+            margin-top: 40px;
+            li {
+              list-style: none;
+              text-align: center;
+              font-size: 18px;
+              font-weight: 400;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+      .wrapper_card_preparation_blue {
+        background: rgba(96, 160, 216, 0.85);
+        padding: 32px 100px;
+        h3 {
+          font-size: 52px;
+          font-weight: 600;
+          color: #FFFFFF;
+        }
+        .card_preparation_food {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          ul {
+            margin-top: 40px;
+            li {
+              list-style: none;
+              text-align: center;
+              font-size: 18px;
+              font-weight: 400;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
