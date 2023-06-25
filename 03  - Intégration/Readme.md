@@ -19,7 +19,7 @@ Video youtube présentation de la maquette :
 
 ====================================
 
-3. Source
+3. Sources
 
 - Video ytb pour SMACSS
 - Chatgpt pour l'explication du SMACSS
