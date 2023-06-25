@@ -42,3 +42,29 @@
       }
     }
   }
+
+  @media screen and (max-width: 1024px) {
+    .container_welcome {
+      .wrapper_welcome {
+        flex-direction: column;
+        .content_welcome {
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          margin: 0;
+          h3 {
+            text-align: center;
+          }
+        }
+        .img_welcome {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 883px;
+          img {
+            width: 75%;
+          }
+        }
+      }
+    }
+  }

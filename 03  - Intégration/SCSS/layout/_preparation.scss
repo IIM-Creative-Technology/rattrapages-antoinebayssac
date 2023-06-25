@@ -61,3 +61,30 @@
       }
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .container_preparation {
+      .wrapper_preparation {
+        margin: 0;
+  
+        .wrapper_card_preparation_green {
+          width: 100%;
+          h3 {
+            text-align: center;
+          }
+          .card_preparation_food {
+            flex-direction: column;
+          }
+        }
+        .wrapper_card_preparation_blue {
+          width: 100%;
+          h3 {
+            text-align: center;
+          }
+          .card_preparation_food {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }

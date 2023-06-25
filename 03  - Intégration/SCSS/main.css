@@ -219,6 +219,29 @@ nav .wrapper_navlink button {
   width: 100%;
 }
 
+@media screen and (max-width: 1024px) {
+  .container_welcome .wrapper_welcome {
+    flex-direction: column;
+  }
+  .container_welcome .wrapper_welcome .content_welcome {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .container_welcome .wrapper_welcome .content_welcome h3 {
+    text-align: center;
+  }
+  .container_welcome .wrapper_welcome .img_welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 883px;
+  }
+  .container_welcome .wrapper_welcome .img_welcome img {
+    width: 75%;
+  }
+}
 .container_accroche {
   height: 100vh;
   background: url("../Assets/ismael-trevino-NDyuR4Huig8-unsplash.jpg") center center no-repeat;
@@ -270,6 +293,17 @@ nav .wrapper_navlink button {
   font-weight: 600;
 }
 
+@media screen and (max-width: 1024px) {
+  .container_accroche {
+    justify-content: center;
+  }
+  .container_accroche .wrapper_accroche {
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .container_menu {
   background: #FFFFFF;
   display: flex;
@@ -445,6 +479,29 @@ nav .wrapper_navlink button {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .container_preparation .wrapper_preparation {
+    margin: 0;
+  }
+  .container_preparation .wrapper_preparation .wrapper_card_preparation_green {
+    width: 100%;
+  }
+  .container_preparation .wrapper_preparation .wrapper_card_preparation_green h3 {
+    text-align: center;
+  }
+  .container_preparation .wrapper_preparation .wrapper_card_preparation_green .card_preparation_food {
+    flex-direction: column;
+  }
+  .container_preparation .wrapper_preparation .wrapper_card_preparation_blue {
+    width: 100%;
+  }
+  .container_preparation .wrapper_preparation .wrapper_card_preparation_blue h3 {
+    text-align: center;
+  }
+  .container_preparation .wrapper_preparation .wrapper_card_preparation_blue .card_preparation_food {
+    flex-direction: column;
+  }
+}
 .container_form {
   background-size: cover;
   background: url("../Assets/61842.jpg") center;
@@ -549,6 +606,15 @@ nav .wrapper_navlink button {
   height: 135px;
 }
 
+@media screen and (max-width: 768px) {
+  .container_form .wrapper_form .wrapper_form_aside {
+    width: 80%;
+    margin: 0 6px;
+  }
+  .container_form .wrapper_form form .form_input {
+    flex-direction: column !important;
+  }
+}
 footer {
   padding: 67px 0;
   background: rgb(178, 210, 52);
@@ -600,6 +666,16 @@ footer .wrapper_footer .wrapper_footer_info .footer_text p {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1200px) {
+  .wrapper_navlink a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wrapper_navlink a {
+    font-size: 14px;
+  }
+}
 .wrapper_navlink .button_order {
   padding: 9px 30px;
   font-size: 15px;

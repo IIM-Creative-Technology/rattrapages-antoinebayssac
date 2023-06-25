@@ -106,3 +106,19 @@
       }
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .container_form {
+      .wrapper_form {
+        .wrapper_form_aside {
+          width: 80%;
+          margin: 0 6px;
+        }
+        form {
+          .form_input {
+            flex-direction: column !important;
+          }
+        }
+      }
+    }
+  }
