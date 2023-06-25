@@ -1,0 +1,44 @@
+.container_hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:
+            linear-gradient(to right, rgba(96, 160, 216, 0.65), rgba(178, 210, 52, 0.65)),
+            url("../Assets/luisa-brimble-2RrBE90w0T8-unsplash.jpg") no-repeat  center center;
+    background-size: cover;
+    height: 100vh;
+    .wrapper_brand {
+      margin: auto;
+      .brand {
+        display: flex;
+        flex-direction: column;
+        h1 {
+          display: flex;
+          justify-content: flex-start;
+          font-size: 126px;
+          color: #FFFFFF;
+          font-weight: 500;
+        }
+        h2 {
+          display: flex;
+          justify-content: flex-end;
+          font-size: 54px;
+          font-style: italic;
+          font-weight: 400;
+          color: #FFFFFF;
+          transform: rotate(-9deg);
+        }
+      }
+  
+    }
+    .wrapper_social {
+      align-self: flex-end;
+      padding-bottom: 46px;
+      padding-right: 47px;
+      i {
+        color: #FFFFFF;
+        margin: 0 20px;
+        cursor: pointer;
+      }
+    }
+  }

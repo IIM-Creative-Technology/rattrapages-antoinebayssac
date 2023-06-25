@@ -1,0 +1,30 @@
+nav {
+    
+    display: flex;
+    padding: 0 43px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-between;
+  
+    .wrapper_logo {
+      width: 200px;
+      a {
+  
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .wrapper_navlink {
+      display: flex;
+      justify-content: center;
+      a {
+        margin: 0 50px;
+  
+      }
+      button {
+        margin: 0 50px;
+        font-size: 15px;
+      }
+    }
+}

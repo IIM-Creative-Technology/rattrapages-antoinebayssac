@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  padding: 0 43px;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .wrapper_logo {
+  width: 200px;
+}
+nav .wrapper_logo a img {
+  width: 100%;
+}
+nav .wrapper_navlink {
+  display: flex;
+  justify-content: center;
+}
+nav .wrapper_navlink a {
+  margin: 0 50px;
+}
+nav .wrapper_navlink button {
+  margin: 0 50px;
+  font-size: 15px;
+}
+
+.container_hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(96, 160, 216, 0.65), rgba(178, 210, 52, 0.65)), url("../Assets/luisa-brimble-2RrBE90w0T8-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+.container_hero .wrapper_brand {
+  margin: auto;
+}
+.container_hero .wrapper_brand .brand {
+  display: flex;
+  flex-direction: column;
+}
+.container_hero .wrapper_brand .brand h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 126px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.container_hero .wrapper_brand .brand h2 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: 400;
+  color: #FFFFFF;
+  transform: rotate(-9deg);
+}
+.container_hero .wrapper_social {
+  align-self: flex-end;
+  padding-bottom: 46px;
+  padding-right: 47px;
+}
+.container_hero .wrapper_social i {
+  color: #FFFFFF;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.container_welcome {
+  position: relative;
+  background: url("../Assets/61842.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_welcome .wrapper_welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 150px 0;
+}
+.container_welcome .wrapper_welcome .content_welcome {
+  display: flex;
+  flex-direction: column;
+  width: 627px;
+  gap: 40px;
+  margin-left: 150px;
+}
+.container_welcome .wrapper_welcome .content_welcome h3 {
+  font-size: 52px;
+  font-weight: 600;
+  color: rgb(178, 210, 52);
+}
+.container_welcome .wrapper_welcome .content_welcome .text_welcome {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.container_welcome .wrapper_welcome .content_welcome .text_welcome p {
+  font-size: 18px;
+  color: #606060;
+}
+.container_welcome .wrapper_welcome .img_welcome {
+  width: 883px;
+}
+.container_welcome .wrapper_welcome .img_welcome img {
+  width: 100%;
+}
+
+.container_accroche {
+  height: 100vh;
+  background: url("../Assets/ismael-trevino-NDyuR4Huig8-unsplash.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.container_accroche .wrapper_accroche {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 11%;
+  background: rgba(178, 210, 52, 0.85);
+  padding: 48px 68px;
+}
+.container_accroche .wrapper_accroche .card_accroche {
+  height: 557px;
+  width: 496px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+.container_accroche .wrapper_accroche .card_accroche .text_accroche {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.container_accroche .wrapper_accroche .card_accroche h4 {
+  color: #FFFFFF;
+  font-size: 52px;
+  font-weight: 600;
+  text-align: center;
+}
+.container_accroche .wrapper_accroche .card_accroche p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+}
+.container_accroche .wrapper_accroche .card_accroche p .underline {
+  text-decoration: underline;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.container_accroche .wrapper_accroche .card_accroche p .semibold {
+  font-weight: 600;
+}
+
+.container_menu {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0;
+  gap: 87px;
+}
+.container_menu .wrapper_menu_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container_menu .wrapper_menu_title .wrapper_heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container_menu .wrapper_menu_title .wrapper_heading .heading_menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+.container_menu .wrapper_menu_title .wrapper_heading .heading_menu .title_menu h3 {
+  font-size: 52px;
+  font-weight: 600;
+  color: rgb(178, 210, 52);
+}
+.container_menu .wrapper_menu_title .wrapper_heading .heading_menu .text_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container_menu .wrapper_menu_title .wrapper_heading .heading_menu .text_menu .text_menu1 p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #606060;
+}
+.container_menu .wrapper_menu_title .wrapper_heading .heading_menu .text_menu .text_menu2 p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #606060;
+}
+
+.wrapper_navlink a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.wrapper_navlink .button_order {
+  padding: 9px 30px;
+  font-size: 15px;
+  color: rgb(178, 210, 52);
+  font-weight: 600;
+  background-color: #FFFFFF;
+  border: none;
+  box-shadow: 0 8px 16px rgba(97, 97, 97, 0.16);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.about_button {
+  padding: 14px 60px;
+  background: rgb(178, 210, 52);
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(97, 97, 97, 0.16);
+  text-decoration: none;
+}
+
+.accroche_button {
+  padding: 14px 60px;
+  background: #FFFFFF;
+  color: rgb(178, 210, 52);
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(97, 97, 97, 0.16);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

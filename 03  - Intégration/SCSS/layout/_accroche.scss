@@ -1,0 +1,50 @@
+.container_accroche {
+    height: 100vh;
+    background: url("../Assets/ismael-trevino-NDyuR4Huig8-unsplash.jpg") center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .wrapper_accroche {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 11%;
+      background: rgba(178, 210, 52, 0.85);
+      padding: 48px 68px;
+      .card_accroche {
+        height: 557px;
+        width: 496px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+        .text_accroche {
+          display: flex;
+          flex-direction: column;
+          gap:40px;
+        }
+        h4 {
+          color: #FFFFFF;
+          font-size: 52px;
+          font-weight: 600;
+          text-align: center;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          color: #FFFFFF;
+          text-align: center;
+          .underline {
+            text-decoration: underline;
+            color: #FFFFFF;
+            font-weight: 400;
+          }
+          .semibold {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }

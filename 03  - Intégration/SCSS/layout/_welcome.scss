@@ -1,0 +1,44 @@
+.container_welcome {
+    position: relative;
+    background: url("../Assets/61842.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper_welcome {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 150px 0;
+      .content_welcome {
+        display: flex;
+        flex-direction: column;
+        width: 627px;
+        gap: 40px;
+        margin-left: 150px;
+  
+        h3 {
+          font-size: 52px;
+          font-weight: 600;
+          color: $green;
+        }
+        .text_welcome {
+          width: 75%;
+          display: flex;
+          flex-direction: column;
+          gap: 32px;
+          p{
+            font-size: 18px;
+            color: $grey;
+          }
+        }
+      }
+      .img_welcome {
+        width: 883px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
