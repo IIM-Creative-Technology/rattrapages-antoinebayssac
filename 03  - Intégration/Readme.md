@@ -5,7 +5,7 @@
 1. Setup Intégration Maquette
 
 - Clone le projet : git@github.com:IIM-Creative-Technology/rattrapages-antoinebayssac.git
-- npm install
+- npm install (pour installer les dépendances)
 
 ====================================
 
@@ -19,4 +19,8 @@ Video youtube présentation de la maquette :
 
 ====================================
 
-Source : 
+3. Sources
+
+- Video ytb pour SMACSS
+- Chatgpt pour l'explication du SMACSS
+- https://www.toptal.com/css/smacss-scalable-modular-architecture-css
